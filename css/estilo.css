@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+main{
+	width: 95%;
+	height: 750px;
+	margin-left: auto;
+	margin-right: auto;
+}
+header{
+	width: 100%;
+	height:100px;
+	background-color: #222222;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+}
+nav{
+	float: right;
+	text-align: right;
+	width: 100%;
+	height: 100px;
+	background-color: #222222;
+	margin-top: auto;
+}
+section{
+	width: 100%;
+	height: 570px;
+	text-align: right;
+	margin-left: auto;
+	margin-right: auto;
+}
+article{
+	width: 100%;
+	height: 570px;
+	margin-right: auto;
+	margin-left: auto;
+}
+form{
+	width: 80%;
+	height: 570px;
+	margin-right: auto;
+	margin-left: auto;
+	color: #FFFFFF;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 12pt;
+
+}
+footer{
+	width: 100%
+	height: 50px;
+	background-color: #000000;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	clear: both; 
+}
+p{
+	color: #FFFFFF;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 12pt;
+	padding: 2%;
+}
+a{
+	text-decoration: none;
+	color: #FFFFFF
+}
+.boton{
+	width: 60px;
+	height: 25px;
+	color: #222222
+	padding: 1%;
+	margin-right: 1%;
+	text-decoration: none;
+}
+.o{
+	font-size: 18pt;
+}
+.cajastexto{
+	width: 150px;
+	height: 25px;
+	color: #555555;
+	text-decoration: none;
+
+}
+.personajesdos{
+	width: 100%;
+	height: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.trailerr{
+	width: 100%;
+	height: 300px;
+	background-image: url(../img/bannertrailer.png);
+	padding-left: 30%;
+}
+
+.listastexto{
+	color: #FFFFFF;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 12pt;
+	padding: 4%;
+	text-align: center;
+}
+.sino{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../img/fondo.png);
+}
+.info{
+	height: 1290px;
+}
+.perso{
+	height: 1390px;
+}
+.secunpsnj{
+	width: 100%;
+	height: 250px;
+	list-style: none;
+	background-color: #000000;
+	padding-left: 23%;
+	padding-top: 1%;
+}
+.soundtrackk{
+background-color: #333333;
+}
+#info{
+	width: 100%;
+	height: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../img/info.png);
+	background-size: cover;
+}
+#backgrounduno{
+	background-image: url(../img/sanjuniwall.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#menu{
+	width: 90%
+	margin: 0;
+}
+#menu li {
+	display: inline;
+}
+#trailer{
+	width: 40%;
+	margin-right: 30%;
+	padding-top: 1%;
+}
+#menu li a {
+	font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
+	text-decoration: none;
+	float: right;
+	padding-top: 3%;
+	margin-right: 7%;
+	border-radius: 10px;
+	color: #FFFFFF;
+	
+}
+#beb{
+	width: 30%;
+	height: 60px;
+	color: #b4d2f3;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 60pt;
+	padding-top: 10%;
+	margin-left: 3%;
+	float: left;
+}
+#logo{
+	margin: 0;
+	width: 10%;
+	padding-left: 2%;
+	float: left;
+	padding-top: 1%;
+	padding-bottom: 2%;
+}
+#nombre{
+	width: 40%;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 10pt; 
+	padding: 2%;
+	padding-left: 16%;
+	float: left;
+}
+#pie{
+	width: 30%;
+	height: 20px;
+	margin: 0;
+	margin-top: 1%;
+	margin-right: 7%;
+	float: right;
+}
+#pie li a{
+	text-decoration-line: : none;
+	padding: 2%;
+	padding-right: 3%;
+	float: right;
+}
+#pie li {
+	display: inline;
+}
+#backgroundform{
+	background-image: url(../img/sanjuniperowall.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#bmlogo{
+	width: 20%;
+	float: left;
+	margin-top: 1%;
+	margin-left: 2%;
+}
+#textosinopsis{
+	width: 40%;
+	height: 350px;
+	float: left;
+	margin-left: 5%;
+	margin-top: 5%;
+	background-color: rgba(20, 20, 20, .2);
+	text-align: center;
+	padding-top: 1%;
+}
+#titulo{
+	color: #b4d2f3;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 40pt;
+}
+#formulario{
+	width: 60%;
+	max-width: 1280;
+	height: 570px;
+	background-color: rgba(40, 40, 40, .8);
+	text-align: center;
+}
+#director{
+	width: 35%;
+	height: 50px;
+	float: right;
+	margin: 4%;
+	text-align: center;
+	padding-right: 15%;
+
+}
+#soundtrack{
+	width: 40%;
+	height:400px;
+	padding-left: 5%;
+	text-align: center;
+	padding-top: 1%;
+}
+#imgsoundtrack{
+	width: 40%;
+	height: 400px;
+	float: right;
+	background-image: url(../img/tracks.jpg);
+	background-repeat: no-repeat;
+	margin-top: 9%;
+}
+#yorkie{
+	width: 15%;
+	height: 270px;
+	background-image: url(../img/yorkie.png);
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 8%;
+	margin-top: 2%;
+}
+#textopsnj{
+	width: 23%;
+	height: 270px;
+	float: left;
+	margin-top: 2%;
+	padding-left: 2%;
+	padding-top: 2%;
+	background-color: rgba(25, 25, 25, .4);
+
+}
+#textopsnjdos{
+	width: 23%;
+	height: 270px;
+	float: right;
+	margin-top: 2%;
+	margin-right: 2%;
+	padding-right: 2%;
+	padding-top: 2%;
+	text-align: right;
+	background-color: rgba(25, 25, 25, .4);
+}
+#kelly{
+	width: 15%;
+	height: 270px;
+	background-image: url(../img/kelly.png);
+	background-repeat: no-repeat;
+	float: right;
+	margin-right: 8%;
+	margin-top: 2%;
+
+}
+#personajesecundarios li {
+	display: inline;
+	text-align: center;
+	list-style: none;
+	float: left;
+	padding-left: 6%;
+}
+#personajes{
+	width: 100%;
+	height: 570px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../img/fondosanjuni.png);
+	padding-top: 3%;
+}
+#backgroundgaleria{
+	width: 100%;
+	height: 570px;
+	background-image: url(../img/sanjuniperologo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#galeria{
+	width: 70%;
+	height: 570;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
